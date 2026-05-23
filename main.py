@@ -453,7 +453,7 @@ def gameloop():
     text.clear()
     text.setx(0)
     text.sety(SCREEN_HEIGHT/2 - 50)
-    text.write(f"Level {level + 1}/3 China: {arrowscore} US: {wasdscore}", align="center", font=("Arial", 24, "normal"))   
+    text.write(f"Level {level + 1}/4 China: {arrowscore} US: {wasdscore}", align="center", font=("Arial", 24, "normal"))   
     
     screen.update()
 
